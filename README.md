@@ -53,12 +53,14 @@ The project follows a structured machine learning workflow:
 ---
 
 ## 📁 File Structure
+```
+.
 ├── bluebook-for-bulldozers/  <- You need to create this and add the data
 │   ├── TrainAndValid.csv
-│   ├── Test.csv
 │   └── ... (other data files)
 │
 ├── bulldozer_price_predictions_optimized.csv   <- The generated submission file
 ├── Bulldozer Price Prediction.ipynb            <- The main notebook with all the code
 ├── requirements.txt                            <- Required Python libraries
 └── README.md                                   <- This file
+```
